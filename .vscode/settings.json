@@ -1,12 +1,24 @@
 {
+<<<<<<< HEAD:.vscode/settings.json
     "python.pythonPath":
       "backend/env/bin/python",
+=======
+    "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.6/bin/python3",
+>>>>>>> f045e221fd935427f43ebb399270122ea7aa2890:backend/.vscode/settings.json
     "editor.formatOnSave": true,
     "python.linting.pycodestyleEnabled": true,
     "python.linting.pylintPath": "pylint",
     "python.linting.pylintArgs": ["--load-plugins", "pylint_django"],
     "python.linting.pylintEnabled": true,
     "python.venvPath": "${workspaceFolder}/env/bin/python3",
+<<<<<<< HEAD:.vscode/settings.json
     "python.linting.pycodestyleArgs": ["--ignore=E501"]
   }
   
+=======
+    "python.linting.pep8Args": ["--ignore=E501"],
+    "files.exclude": {
+      "**/*.pyc": true
+    }
+  }
+>>>>>>> f045e221fd935427f43ebb399270122ea7aa2890:backend/.vscode/settings.json
